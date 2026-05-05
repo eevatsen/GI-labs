@@ -6,13 +6,19 @@
         xmlns:local="clr-namespace:lab2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel>
-        <Label HorizontalAlignment="Center">Label</Label>
-        <TextBox>TextBox</TextBox>
-        <TextBox>TextBox</TextBox>
-        <TextBox>TextBox</TextBox>
-        <TextBox>TextBox</TextBox>
-        <Button HorizontalAlignment="Center" Width="100" Margin="0,20,0,0">Button</Button>
-    </StackPanel>
+    <WrapPanel Margin="20">
+        <Label>Label</Label>
+        <TextBox Width="60" Margin="5">TextBox</TextBox>
+        <TextBox Width="60" Margin="5">TextBox</TextBox>
+        <TextBox Width="60" Margin="5">TextBox</TextBox>
+        <TextBox Width="60" Margin="5">TextBox</TextBox>
+        <Label>Label</Label>
+        <TextBox Width="60" Margin="5">TextBox</TextBox>
+        <TextBox Width="60" Margin="5">TextBox</TextBox>
+        <TextBox Width="60" Margin="5">TextBox</TextBox>
+        <Button Width="60" Margin="50,10,0,0">Button</Button>
+    </WrapPanel>
+
+
 
 </Window>
